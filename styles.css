@@ -73,4 +73,13 @@ body {
   button:hover {
     background-color: rgb(244, 200, 223);
   }
+  .banner {
+    width:1024px;
+}
+
+@media screen and (max-width:420px) {
+    .banner {
+        width:420px;
+    }
+}
   
